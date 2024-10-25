@@ -1,0 +1,4 @@
+*.ino
+/uploads
+/node_modules
+.env
