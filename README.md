@@ -20,8 +20,8 @@ Welcome to the ESP32 Image Analysis Server! This project is designed to work wit
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/youpv/server-waste-sorter.git
+   cd server-waste-sorter
    ```
 
 2. **Install Dependencies**:
@@ -60,7 +60,7 @@ This project is for educational purposes and is not intended for commercial use.
 
 ## 📧 Contact
 
-For any questions or issues, please contact [Your Name] at [your-email@example.com].
+For any questions or issues, please contact Youp Verkooijen at [github.com/youpv](https://github.com/youpv).
 
 ---
 
