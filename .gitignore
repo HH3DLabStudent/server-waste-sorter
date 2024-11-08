@@ -1,5 +1,6 @@
 *.ino
-/uploads
+/uploads/*
+!/uploads/.gitkeep
 /node_modules
 .env
 .DS_STORE
