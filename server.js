@@ -116,7 +116,7 @@ app.post("/api/upload", upload.single("image"), async (req, res) => {
 
 		// Parse the JSON response
 		const analysis = JSON.parse(response.choices[0].message.content);
-
+		console.log(analysis);
 		res.json(analysis);
 	} catch (error) {
 		console.error("Error processing the image:", error);
