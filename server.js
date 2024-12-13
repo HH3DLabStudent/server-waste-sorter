@@ -78,7 +78,7 @@ app.post("/api/upload", upload.single("image"), async (req, res) => {
           Respond in JSON format with the object name and waste categories. Set the appropriate category to true and the rest to false. 
           Categories are: plastic, paper, cardboard, bio_waste, mixed_waste, metal, glass, return_to_store.
           Remember, you are located in Finland. So if it's like a plastic bottle, it might need to be returned to the store for return money (statiegeld in dutch).
-		  Also, if a user scans things like electronic devices, they might need to be returned to the store for return money.
+		  Also, if a user scans things like electronic devices, they might need to be returned to the store for return money. Of course, this counts for drink bottles, not soap bottles etc.
           Example response format:
           {
             "object": "Plastic wrapper",
